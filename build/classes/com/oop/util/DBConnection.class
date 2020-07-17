@@ -1,0 +1,12 @@
+Êþº¾   4 5  com/oop/util/DBConnection  java/lang/Object conn Ljava/sql/Connection; <init> ()V Code
+     LineNumberTable LocalVariableTable this Lcom/oop/util/DBConnection; 
+getConnection ()Ljava/sql/Connection;	      com.mysql.jdbc.Driver
+    java/lang/Class   forName %(Ljava/lang/String;)Ljava/lang/Class;   jdbc:mysql://localhost:3306/OVRS  root ! 1234
+ # % $ java/sql/DriverManager  & M(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;
+ ( * ) java/lang/Exception +  printStackTrace - java/sql/SQLException /  java/lang/ClassNotFoundException e Ljava/lang/Exception; 
+StackMapTable 
+SourceFile DBConnection.java !      
+          	   /     *· 
+±            
+            	    	        $² Ç ¸ W ¸ "³ § K*¶ '² °     ,    .                     
+       0 1   2    [ (  3    4
